@@ -1,0 +1,1692 @@
+Generated: 2026-04-17T10:50:46.625838+00:00
+Backup root: /root/autodl-tmp/jkh
+
+Conda environments
+==================
+ENV: 360lf
+PATH: /root/autodl-tmp/jkh/.conda/envs/360lf
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/360lf/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.12.2 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  expat==2.7.3 (build=h7354ed3_3, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.44 (build=h153f514_2, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libexpat==2.7.3 (build=h7354ed3_3, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc==15.2.0 (build=h69a1729_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==15.2.0 (build=h166f726_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==15.2.0 (build=h4751f2c_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libnsl==2.0.0 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx==15.2.0 (build=h39759b7_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==15.2.0 (build=hc03a8fd_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libxcb==1.17.0 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libzlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.5 (build=h7934f7d_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.18 (build=hd6dcaed_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.3 (build=pyhc872135_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  pthread-stubs==0.3 (build=h0ce48e5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  python==3.11.14 (build=h6fa692b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.3 (build=hc2a1206_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==80.9.0 (build=py311h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.51.0 (build=h2a70700_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.15 (build=h54e0aa7_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py311h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libx11==1.8.12 (build=h9b100fa_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxau==1.0.12 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxdmcp==1.1.5 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-xorgproto==2024.1 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  accelerate==1.0.1
+  aiofiles==23.2.1
+  aiohappyeyeballs==2.6.1
+  aiohttp==3.13.2
+  aiosignal==1.4.0
+  annotated-doc==0.0.4
+  annotated-types==0.7.0
+  anyio==4.12.0
+  attrs==25.4.0
+  av==16.0.1
+  certifi==2025.11.12
+  charset-normalizer==3.4.4
+  click==8.3.1
+  contourpy==1.3.3
+  cycler==0.12.1
+  datasets==3.1.0
+  deepspeed==0.14.4
+  dill==0.3.8
+  docstring_parser==0.17.0
+  einops==0.8.1
+  fastapi==0.124.0
+  ffmpy==1.0.0
+  filelock==3.20.0
+  fire==0.7.1
+  flash_attn==2.8.3
+  fonttools==4.61.0
+  frozenlist==1.8.0
+  fsspec==2024.9.0
+  gitdb==4.0.12
+  GitPython==3.1.45
+  gradio==4.44.1
+  gradio_client==1.3.0
+  h11==0.16.0
+  hf-xet==1.2.0
+  hjson==3.1.0
+  httpcore==1.0.9
+  httpx==0.28.1
+  huggingface-hub==0.36.0
+  idna==3.11
+  importlib_resources==6.5.2
+  jieba==0.42.1
+  Jinja2==3.1.6
+  joblib==1.5.2
+  kiwisolver==1.4.9
+  llamafactory==0.9.1.post1
+  markdown-it-py==4.0.0
+  MarkupSafe==2.1.5
+  matplotlib==3.10.7
+  mdurl==0.1.2
+  mpmath==1.3.0
+  multidict==6.7.0
+  multiprocess==0.70.16
+  networkx==3.6
+  ninja==1.13.0
+  nltk==3.9.2
+  numpy==1.26.4
+  nvidia-cublas-cu12==12.8.4.1
+  nvidia-cuda-cupti-cu12==12.8.90
+  nvidia-cuda-nvrtc-cu12==12.8.93
+  nvidia-cuda-runtime-cu12==12.8.90
+  nvidia-cudnn-cu12==9.10.2.21
+  nvidia-cufft-cu12==11.3.3.83
+  nvidia-cufile-cu12==1.13.1.3
+  nvidia-curand-cu12==10.3.9.90
+  nvidia-cusolver-cu12==11.7.3.90
+  nvidia-cusparse-cu12==12.5.8.93
+  nvidia-cusparselt-cu12==0.7.1
+  nvidia-ml-py==13.580.82
+  nvidia-nccl-cu12==2.27.5
+  nvidia-nvjitlink-cu12==12.8.93
+  nvidia-nvshmem-cu12==3.3.20
+  nvidia-nvtx-cu12==12.8.90
+  orjson==3.11.5
+  packaging==25.0
+  pandas==2.3.3
+  peft==0.12.0
+  pillow==10.4.0
+  pip==25.3
+  platformdirs==4.5.1
+  propcache==0.4.1
+  protobuf==6.33.2
+  psutil==7.1.3
+  py-cpuinfo==9.0.0
+  pyarrow==22.0.0
+  pydantic==2.12.5
+  pydantic_core==2.41.5
+  pydub==0.25.1
+  Pygments==2.19.2
+  pyparsing==3.2.5
+  python-dateutil==2.9.0.post0
+  python-multipart==0.0.20
+  pytz==2025.2
+  PyYAML==6.0.3
+  regex==2025.11.3
+  requests==2.32.5
+  rich==14.2.0
+  ring-flash-attn==0.1.3
+  rouge-chinese==1.0.3
+  ruff==0.14.8
+  safetensors==0.7.0
+  scipy==1.16.3
+  semantic-version==2.10.0
+  sentencepiece==0.2.1
+  sentry-sdk==2.47.0
+  setuptools==80.9.0
+  shellingham==1.5.4
+  shtab==1.8.0
+  six==1.17.0
+  smmap==5.0.2
+  sse-starlette==3.0.3
+  starlette==0.50.0
+  sympy==1.14.0
+  termcolor==3.2.0
+  tiktoken==0.12.0
+  tokenizers==0.21.4
+  tomlkit==0.12.0
+  torch==2.9.1
+  tqdm==4.67.1
+  transformers==4.51.3
+  triton==3.5.1
+  trl==0.9.6
+  typer==0.20.0
+  typing_extensions==4.15.0
+  typing-inspection==0.4.2
+  tyro==0.8.14
+  tzdata==2025.2
+  urllib3==2.6.0
+  uvicorn==0.38.0
+  wandb==0.23.1
+  websockets==12.0
+  wheel==0.45.1
+  xxhash==3.6.0
+  yarl==1.22.0
+
+ENV: bishe
+PATH: /root/autodl-tmp/jkh/.conda/envs/bishe
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/bishe/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.2.25 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.40 (build=h12ee557_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.4 (build=h6a678d5_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.16 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==24.2 (build=py38h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  python==3.8.20 (build=he870216_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.2 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==75.1.0 (build=py38h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.45.3 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.14 (build=h39e8969_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  wheel==0.44.0 (build=py38h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.2.13 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  pip==24.2
+  setuptools==75.1.0
+  wheel==0.44.0
+
+ENV: depass
+PATH: /root/autodl-tmp/jkh/.conda/envs/depass
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/depass/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.11.4 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  expat==2.7.3 (build=h3385a95_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.44 (build=h153f514_2, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc==15.2.0 (build=h69a1729_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==15.2.0 (build=h166f726_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==15.2.0 (build=h4751f2c_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libnsl==2.0.0 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx==15.2.0 (build=h39759b7_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==15.2.0 (build=hc03a8fd_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libxcb==1.17.0 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libzlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.5 (build=h7934f7d_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.18 (build=hd6dcaed_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.3 (build=pyhc872135_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  pthread-stubs==0.3 (build=h0ce48e5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  python==3.10.19 (build=h6fa692b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.3 (build=hc2a1206_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==80.9.0 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.51.0 (build=h2a70700_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.15 (build=h54e0aa7_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libx11==1.8.12 (build=h9b100fa_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxau==1.0.12 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxdmcp==1.1.5 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-xorgproto==2024.1 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  certifi==2025.11.12
+  charset-normalizer==3.4.4
+  filelock==3.19.1
+  fsspec==2025.9.0
+  hf-xet==1.2.0
+  huggingface-hub==0.36.0
+  idna==3.11
+  Jinja2==3.1.6
+  MarkupSafe==2.1.5
+  mpmath==1.3.0
+  networkx==3.3
+  numpy==2.1.2
+  nvidia-cublas-cu12==12.1.3.1
+  nvidia-cuda-cupti-cu12==12.1.105
+  nvidia-cuda-nvrtc-cu12==12.1.105
+  nvidia-cuda-runtime-cu12==12.1.105
+  nvidia-cudnn-cu12==9.1.0.70
+  nvidia-cufft-cu12==11.0.2.54
+  nvidia-curand-cu12==10.3.2.106
+  nvidia-cusolver-cu12==11.4.5.107
+  nvidia-cusparse-cu12==12.1.0.106
+  nvidia-nccl-cu12==2.20.5
+  nvidia-nvjitlink-cu12==12.9.86
+  nvidia-nvtx-cu12==12.1.105
+  packaging==25.0
+  pillow==11.3.0
+  pip==25.3
+  PyYAML==6.0.3
+  regex==2025.11.3
+  requests==2.32.5
+  safetensors==0.7.0
+  setuptools==80.9.0
+  sympy==1.14.0
+  tokenizers==0.22.1
+  torch==2.4.1+cu121
+  torchaudio==2.4.1+cu121
+  torchvision==0.19.1+cu121
+  tqdm==4.67.1
+  transformers==4.57.3
+  triton==3.0.0
+  typing_extensions==4.15.0
+  urllib3==2.5.0
+  wheel==0.45.1
+
+ENV: jkh
+PATH: /root/autodl-tmp/jkh/.conda/envs/jkh
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/jkh/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.9.9 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  expat==2.7.1 (build=h6a678d5_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.44 (build=h153f514_2, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libxcb==1.17.0 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libzlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.5 (build=h7934f7d_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.18 (build=hd6dcaed_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.2 (build=pyhc872135_1, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  pthread-stubs==0.3 (build=h0ce48e5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  python==3.10.18 (build=h1a3bd86_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.3 (build=hc2a1206_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==80.9.0 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.50.2 (build=hb25bd0a_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.15 (build=h54e0aa7_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libx11==1.8.12 (build=h9b100fa_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxau==1.0.12 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxdmcp==1.1.5 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-xorgproto==2024.1 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  accelerate==1.10.1
+  aiohappyeyeballs==2.6.1
+  aiohttp==3.13.1
+  aiosignal==1.4.0
+  annotated-types==0.7.0
+  anyio==4.11.0
+  async-timeout==5.0.1
+  attrs==25.4.0
+  certifi==2025.10.5
+  charset-normalizer==3.4.4
+  contourpy==1.3.2
+  cycler==0.12.1
+  datasets==4.3.0
+  dill==0.4.0
+  distro==1.9.0
+  exceptiongroup==1.3.0
+  filelock==3.20.0
+  fonttools==4.60.1
+  frozenlist==1.8.0
+  fsspec==2025.9.0
+  h11==0.16.0
+  hf-xet==1.1.10
+  httpcore==1.0.9
+  httpx==0.28.1
+  huggingface-hub==0.35.3
+  idna==3.11
+  Jinja2==3.1.6
+  jiter==0.11.1
+  kiwisolver==1.4.9
+  MarkupSafe==3.0.3
+  matplotlib==3.10.7
+  mpmath==1.3.0
+  multidict==6.7.0
+  multiprocess==0.70.16
+  networkx==3.4.2
+  numpy==2.2.6
+  nvidia-cublas-cu12==12.8.4.1
+  nvidia-cuda-cupti-cu12==12.8.90
+  nvidia-cuda-nvrtc-cu12==12.8.93
+  nvidia-cuda-runtime-cu12==12.8.90
+  nvidia-cudnn-cu12==9.10.2.21
+  nvidia-cufft-cu12==11.3.3.83
+  nvidia-cufile-cu12==1.13.1.3
+  nvidia-curand-cu12==10.3.9.90
+  nvidia-cusolver-cu12==11.7.3.90
+  nvidia-cusparse-cu12==12.5.8.93
+  nvidia-cusparselt-cu12==0.7.1
+  nvidia-nccl-cu12==2.27.5
+  nvidia-nvjitlink-cu12==12.8.93
+  nvidia-nvshmem-cu12==3.3.20
+  nvidia-nvtx-cu12==12.8.90
+  openai==2.6.1
+  packaging==25.0
+  pandas==2.3.3
+  pillow==12.0.0
+  pip==25.2
+  propcache==0.4.1
+  psutil==7.1.1
+  pyarrow==22.0.0
+  pydantic==2.12.3
+  pydantic_core==2.41.4
+  pyparsing==3.2.5
+  python-dateutil==2.9.0.post0
+  pytz==2025.2
+  PyYAML==6.0.3
+  regex==2025.9.18
+  requests==2.32.5
+  safetensors==0.6.2
+  scipy==1.15.3
+  setuptools==80.9.0
+  six==1.17.0
+  sniffio==1.3.1
+  sympy==1.14.0
+  tokenizers==0.22.1
+  torch==2.9.0
+  tqdm==4.67.1
+  transformers==4.57.1
+  triton==3.5.0
+  typing_extensions==4.15.0
+  typing-inspection==0.4.2
+  tzdata==2025.2
+  urllib3==2.5.0
+  wheel==0.45.1
+  xxhash==3.6.0
+  yarl==1.22.0
+
+ENV: jkh1
+PATH: /root/autodl-tmp/jkh/.conda/envs/jkh1
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/jkh1/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.2.25 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.40 (build=h12ee557_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.4 (build=h6a678d5_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.16 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.1 (build=pyhc872135_2, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  python==3.10.16 (build=he870216_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.2 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==78.1.1 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.45.3 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.14 (build=h39e8969_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.2.13 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  pip==25.1
+  setuptools==78.1.1
+  wheel==0.45.1
+
+ENV: jkh2
+PATH: /root/autodl-tmp/jkh/.conda/envs/jkh2
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/jkh2/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.2.25 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.40 (build=h12ee557_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.4 (build=h6a678d5_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.16 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.1 (build=pyhc872135_2, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  python==3.10.16 (build=he870216_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.2 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==78.1.1 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.45.3 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.14 (build=h39e8969_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.2.13 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  pip==25.1
+  setuptools==78.1.1
+  wheel==0.45.1
+
+ENV: jkh3
+PATH: /root/autodl-tmp/jkh/.conda/envs/jkh3
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/jkh3/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.2.25 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.40 (build=h12ee557_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.4 (build=h6a678d5_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.16 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.1 (build=pyhc872135_2, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  python==3.11.11 (build=he870216_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.2 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==78.1.1 (build=py311h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.45.3 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.14 (build=h39e8969_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py311h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.2.13 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  pip==25.1
+  setuptools==78.1.1
+  wheel==0.45.1
+
+ENV: jkh_bishe
+PATH: /root/autodl-tmp/jkh/.conda/envs/jkh_bishe
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/jkh_bishe/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.2.25 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.40 (build=h12ee557_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.4 (build=h6a678d5_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.16 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.1 (build=pyhc872135_2, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  python==3.9.21 (build=he870216_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.2 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==78.1.1 (build=py39h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.45.3 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.14 (build=h39e8969_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py39h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.2.13 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  pip==25.1
+  setuptools==78.1.1
+  wheel==0.45.1
+
+ENV: jkh_l
+PATH: /root/autodl-tmp/jkh/.conda/envs/jkh_l
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/jkh_l/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.2.25 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.40 (build=h12ee557_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc==14.2.0 (build=h767d61c_2, channel=https://conda.anaconda.org/conda-forge/linux-64)
+  libgcc-ng==14.2.0 (build=h69a702a_2, channel=https://conda.anaconda.org/conda-forge/linux-64)
+  libgomp==14.2.0 (build=h767d61c_2, channel=https://conda.anaconda.org/conda-forge/linux-64)
+  libstdcxx==14.2.0 (build=h8f9b012_2, channel=https://conda.anaconda.org/conda-forge/linux-64)
+  libstdcxx-ng==14.2.0 (build=h4852527_2, channel=https://conda.anaconda.org/conda-forge/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.4 (build=h6a678d5_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.4.1 (build=h7b32b05_0, channel=https://conda.anaconda.org/conda-forge/linux-64)
+  pip==25.0 (build=py311h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  python==3.11.11 (build=he870216_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.2 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==75.8.0 (build=py311h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.45.3 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.14 (build=h39e8969_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025a (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py311h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.2.13 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  accelerate==1.6.0
+  annotated-types==0.7.0
+  anyio==4.9.0
+  blessed==1.20.0
+  blobfile==3.0.0
+  build==1.2.2.post1
+  certifi==2025.1.31
+  charset-normalizer==3.4.1
+  click==8.1.8
+  colorlog==6.9.0
+  cpufeature==0.2.1
+  distro==1.9.0
+  fastapi==0.115.12
+  filelock==3.13.1
+  fire==0.7.0
+  flashinfer-python==0.2.3
+  fsspec==2024.6.1
+  greenlet==3.1.1
+  h11==0.14.0
+  httpcore==1.0.7
+  httpx==0.28.1
+  huggingface-hub==0.30.1
+  idna==3.10
+  Jinja2==3.1.4
+  jiter==0.9.0
+  jsonpatch==1.33
+  jsonpointer==3.0.0
+  ktransformers==0.2.4+cu124torch26fancy
+  langchain==0.3.22
+  langchain-core==0.3.49
+  langchain-text-splitters==0.3.7
+  langsmith==0.3.22
+  lxml==5.3.1
+  MarkupSafe==2.1.5
+  mpmath==1.3.0
+  networkx==3.3
+  ninja==1.11.1.4
+  numpy==2.1.2
+  nvidia-cublas-cu12==12.6.4.1
+  nvidia-cuda-cupti-cu12==12.6.80
+  nvidia-cuda-nvrtc-cu12==12.6.77
+  nvidia-cuda-runtime-cu12==12.6.77
+  nvidia-cudnn-cu12==9.5.1.17
+  nvidia-cufft-cu12==11.3.0.4
+  nvidia-curand-cu12==10.3.7.77
+  nvidia-cusolver-cu12==11.7.1.2
+  nvidia-cusparse-cu12==12.5.4.2
+  nvidia-cusparselt-cu12==0.6.3
+  nvidia-nccl-cu12==2.21.5
+  nvidia-nvjitlink-cu12==12.6.85
+  nvidia-nvtx-cu12==12.6.77
+  openai==1.70.0
+  orjson==3.10.16
+  packaging==24.2
+  pillow==11.0.0
+  pip==25.0
+  protobuf==6.30.2
+  psutil==7.0.0
+  pycryptodomex==3.22.0
+  pydantic==2.11.1
+  pydantic_core==2.33.0
+  pyproject_hooks==1.2.0
+  PyYAML==6.0.2
+  pyzmq==26.3.0
+  regex==2024.11.6
+  requests==2.32.3
+  requests-toolbelt==1.0.0
+  safetensors==0.5.3
+  sentencepiece==0.2.0
+  setuptools==75.8.0
+  six==1.17.0
+  sniffio==1.3.1
+  SQLAlchemy==2.0.40
+  starlette==0.46.1
+  sympy==1.13.1
+  tenacity==9.1.2
+  termcolor==3.0.1
+  tiktoken==0.9.0
+  tokenizers==0.19.1
+  torch==2.6.0+cu126
+  torchaudio==2.6.0+cu126
+  torchvision==0.21.0+cu126
+  tqdm==4.67.1
+  transformers==4.43.2
+  triton==3.2.0
+  typing_extensions==4.12.2
+  typing-inspection==0.4.0
+  urllib3==2.3.0
+  uvicorn==0.34.0
+  wcwidth==0.2.13
+  wheel==0.45.1
+  zmq==0.0.0
+  zstandard==0.23.0
+
+ENV: lf
+PATH: /root/autodl-tmp/jkh/.conda/envs/lf
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/lf/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.12.2 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  expat==2.7.3 (build=h7354ed3_3, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.44 (build=h153f514_2, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libexpat==2.7.3 (build=h7354ed3_3, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc==15.2.0 (build=h69a1729_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==15.2.0 (build=h166f726_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==15.2.0 (build=h4751f2c_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libnsl==2.0.0 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx==15.2.0 (build=h39759b7_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==15.2.0 (build=hc03a8fd_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libxcb==1.17.0 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libzlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.5 (build=h7934f7d_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.18 (build=hd6dcaed_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.3 (build=pyhc872135_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  pthread-stubs==0.3 (build=h0ce48e5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  python==3.10.19 (build=h6fa692b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.3 (build=hc2a1206_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==80.9.0 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.51.0 (build=h2a70700_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.15 (build=h54e0aa7_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libx11==1.8.12 (build=h9b100fa_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxau==1.0.12 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxdmcp==1.1.5 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-xorgproto==2024.1 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  accelerate==1.11.0
+  aiofiles==24.1.0
+  aiohappyeyeballs==2.6.1
+  aiohttp==3.13.2
+  aiosignal==1.4.0
+  annotated-doc==0.0.4
+  annotated-types==0.7.0
+  antlr4-python3-runtime==4.9.3
+  anyio==4.12.0
+  async-timeout==5.0.1
+  attrs==25.4.0
+  audioread==3.1.0
+  av==16.0.1
+  bitsandbytes==0.48.2
+  brotli==1.2.0
+  certifi==2025.11.12
+  cffi==2.0.0
+  charset-normalizer==3.4.4
+  click==8.3.1
+  contourpy==1.3.2
+  cut-cross-entropy==25.1.1
+  cycler==0.12.1
+  datasets==3.6.0
+  decorator==5.2.1
+  dill==0.3.8
+  docstring_parser==0.17.0
+  einops==0.8.1
+  exceptiongroup==1.3.1
+  fastapi==0.124.0
+  ffmpy==1.0.0
+  filelock==3.20.0
+  fire==0.7.1
+  flash_attn==2.8.3
+  fonttools==4.61.0
+  frozenlist==1.8.0
+  fsspec==2025.3.0
+  gitdb==4.0.12
+  GitPython==3.1.45
+  gradio==5.45.0
+  gradio_client==1.13.0
+  groovy==0.1.2
+  h11==0.16.0
+  hf_transfer==0.1.9
+  hf-xet==1.2.0
+  httpcore==1.0.9
+  httpx==0.28.1
+  huggingface-hub==0.36.0
+  idna==3.11
+  jieba==0.42.1
+  Jinja2==3.1.6
+  joblib==1.5.2
+  kiwisolver==1.4.9
+  lazy_loader==0.4
+  librosa==0.11.0
+  llamafactory==0.9.4.dev0
+  llvmlite==0.45.1
+  markdown-it-py==4.0.0
+  MarkupSafe==3.0.3
+  matplotlib==3.10.7
+  mdurl==0.1.2
+  modelscope==1.32.0
+  mpmath==1.3.0
+  msgpack==1.1.2
+  msgspec==0.20.0
+  multidict==6.7.0
+  multiprocess==0.70.16
+  networkx==3.4.2
+  nltk==3.9.2
+  numba==0.62.1
+  numpy==1.26.4
+  nvidia-cublas-cu12==12.8.4.1
+  nvidia-cuda-cupti-cu12==12.8.90
+  nvidia-cuda-nvrtc-cu12==12.8.93
+  nvidia-cuda-runtime-cu12==12.8.90
+  nvidia-cudnn-cu12==9.10.2.21
+  nvidia-cufft-cu12==11.3.3.83
+  nvidia-cufile-cu12==1.13.1.3
+  nvidia-curand-cu12==10.3.9.90
+  nvidia-cusolver-cu12==11.7.3.90
+  nvidia-cusparse-cu12==12.5.8.93
+  nvidia-cusparselt-cu12==0.7.1
+  nvidia-nccl-cu12==2.27.5
+  nvidia-nvjitlink-cu12==12.8.93
+  nvidia-nvshmem-cu12==3.3.20
+  nvidia-nvtx-cu12==12.8.90
+  omegaconf==2.3.0
+  orjson==3.11.5
+  packaging==25.0
+  pandas==2.3.3
+  peft==0.17.1
+  pillow==11.3.0
+  pip==25.3
+  platformdirs==4.5.1
+  pooch==1.8.2
+  propcache==0.4.1
+  protobuf==6.33.2
+  psutil==7.1.3
+  pyarrow==22.0.0
+  pycparser==2.23
+  pydantic==2.10.6
+  pydantic_core==2.27.2
+  pydub==0.25.1
+  Pygments==2.19.2
+  pyparsing==3.2.5
+  python-dateutil==2.9.0.post0
+  python-multipart==0.0.20
+  pytz==2025.2
+  PyYAML==6.0.3
+  regex==2025.11.3
+  requests==2.32.5
+  rich==14.2.0
+  rouge-chinese==1.0.3
+  ruff==0.14.8
+  safehttpx==0.1.7
+  safetensors==0.5.3
+  scikit-learn==1.7.2
+  scipy==1.15.3
+  semantic-version==2.10.0
+  sentencepiece==0.2.1
+  sentry-sdk==2.47.0
+  setuptools==80.9.0
+  shellingham==1.5.4
+  shtab==1.8.0
+  six==1.17.0
+  smmap==5.0.2
+  soundfile==0.13.1
+  soxr==1.0.0
+  sse-starlette==3.0.3
+  starlette==0.50.0
+  sympy==1.14.0
+  termcolor==3.2.0
+  threadpoolctl==3.6.0
+  tiktoken==0.12.0
+  tokenizers==0.22.1
+  tomlkit==0.13.3
+  torch==2.9.1
+  torchao==0.14.1
+  torchvision==0.24.1
+  tqdm==4.67.1
+  transformers==4.56.2
+  triton==3.5.1
+  trl==0.9.6
+  typer==0.20.0
+  typing_extensions==4.15.0
+  tyro==0.8.14
+  tzdata==2025.2
+  unsloth==2025.11.6
+  unsloth_zoo==2025.12.1
+  urllib3==2.6.0
+  uvicorn==0.38.0
+  wandb==0.23.1
+  websockets==15.0.1
+  wheel==0.45.1
+  xxhash==3.6.0
+  yarl==1.22.0
+
+ENV: meta
+PATH: /root/autodl-tmp/jkh/.conda/envs/meta
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/meta/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.11.4 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  expat==2.7.3 (build=h3385a95_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.44 (build=h153f514_2, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc==15.2.0 (build=h69a1729_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==15.2.0 (build=h166f726_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==15.2.0 (build=h4751f2c_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libnsl==2.0.0 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx==15.2.0 (build=h39759b7_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==15.2.0 (build=hc03a8fd_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libxcb==1.17.0 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libzlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.5 (build=h7934f7d_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.18 (build=hd6dcaed_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.3 (build=pyhc872135_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  pthread-stubs==0.3 (build=h0ce48e5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  python==3.11.14 (build=h6fa692b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.3 (build=hc2a1206_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==80.9.0 (build=py311h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.51.0 (build=h2a70700_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.15 (build=h54e0aa7_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py311h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libx11==1.8.12 (build=h9b100fa_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxau==1.0.12 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxdmcp==1.1.5 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-xorgproto==2024.1 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  accelerate==1.11.0
+  aiohappyeyeballs==2.6.1
+  aiohttp==3.13.2
+  aiosignal==1.4.0
+  annotated-doc==0.0.4
+  annotated-types==0.7.0
+  anthropic==0.75.0
+  anyio==4.11.0
+  astor==0.8.1
+  attrs==25.4.0
+  black==25.11.0
+  blake3==1.0.8
+  cachetools==6.2.2
+  cbor2==5.7.1
+  certifi==2025.11.12
+  cffi==2.0.0
+  charset-normalizer==3.4.4
+  click==8.3.1
+  cloudpickle==3.1.2
+  cohere==5.20.0
+  compressed-tensors==0.11.0
+  contourpy==1.3.3
+  cupy-cuda12x==13.6.0
+  cycler==0.12.1
+  datasets==4.4.1
+  depyf==0.19.0
+  dill==0.3.8
+  diskcache==5.6.3
+  distro==1.9.0
+  dnspython==2.8.0
+  docstring_parser==0.17.0
+  einops==0.8.1
+  email-validator==2.3.0
+  eval_type_backport==0.2.2
+  fastapi==0.121.2
+  fastapi-cli==0.0.16
+  fastapi-cloud-cli==0.3.1
+  fastavro==1.12.1
+  fastrlock==0.8.3
+  filelock==3.20.0
+  fonttools==4.60.1
+  frozendict==2.4.7
+  frozenlist==1.8.0
+  fsspec==2024.6.1
+  gguf==0.17.1
+  google-auth==2.43.0
+  google-genai==1.52.0
+  h11==0.16.0
+  hf-xet==1.2.0
+  httpcore==1.0.9
+  httptools==0.7.1
+  httpx==0.28.1
+  httpx-sse==0.4.0
+  huggingface-hub==0.36.0
+  idna==3.11
+  interegular==0.3.3
+  Jinja2==3.1.6
+  jiter==0.12.0
+  joblib==1.5.2
+  jsonschema==4.25.1
+  jsonschema-specifications==2025.9.1
+  kiwisolver==1.4.9
+  lark==1.2.2
+  livecodebench==0.1.0
+  llguidance==0.7.30
+  llvmlite==0.44.0
+  lm-format-enforcer==0.11.3
+  markdown-it-py==4.0.0
+  MarkupSafe==3.0.3
+  matplotlib==3.10.7
+  mdurl==0.1.2
+  mistral_common==1.8.5
+  mistralai==0.4.2
+  mpmath==1.3.0
+  msgpack==1.1.2
+  msgspec==0.19.0
+  multidict==6.7.0
+  multiprocess==0.70.16
+  mypy_extensions==1.1.0
+  networkx==3.5
+  ninja==1.13.0
+  numba==0.61.2
+  numpy==2.2.6
+  nvidia-cublas-cu12==12.8.4.1
+  nvidia-cuda-cupti-cu12==12.8.90
+  nvidia-cuda-nvrtc-cu12==12.8.93
+  nvidia-cuda-runtime-cu12==12.8.90
+  nvidia-cudnn-cu12==9.10.2.21
+  nvidia-cufft-cu12==11.3.3.83
+  nvidia-cufile-cu12==1.13.1.3
+  nvidia-curand-cu12==10.3.9.90
+  nvidia-cusolver-cu12==11.7.3.90
+  nvidia-cusparse-cu12==12.5.8.93
+  nvidia-cusparselt-cu12==0.7.1
+  nvidia-nccl-cu12==2.27.3
+  nvidia-nvjitlink-cu12==12.8.93
+  nvidia-nvtx-cu12==12.8.90
+  openai==2.8.1
+  openai-harmony==0.0.8
+  opencv-python-headless==4.12.0.88
+  orjson==3.10.18
+  outlines_core==0.2.11
+  packaging==25.0
+  pandas==2.3.3
+  partial-json-parser==0.2.1.1.post7
+  pathspec==0.12.1
+  Pebble==5.1.3
+  pillow==11.3.0
+  pip==25.3
+  platformdirs==4.5.0
+  prometheus_client==0.23.1
+  prometheus-fastapi-instrumentator==7.1.0
+  propcache==0.4.1
+  protobuf==6.33.1
+  psutil==7.1.3
+  py-cpuinfo==9.0.0
+  pyarrow==22.0.0
+  pyasn1==0.6.1
+  pyasn1_modules==0.4.2
+  pybase64==1.4.2
+  pycountry==24.6.1
+  pycparser==2.23
+  pydantic==2.12.4
+  pydantic_core==2.41.5
+  pydantic-extra-types==2.10.6
+  Pygments==2.19.2
+  pyparsing==3.2.5
+  python-dateutil==2.9.0.post0
+  python-dotenv==1.2.1
+  python-json-logger==4.0.0
+  python-multipart==0.0.20
+  pytokens==0.3.0
+  pytz==2025.2
+  PyYAML==6.0.3
+  pyzmq==27.1.0
+  ray==2.51.1
+  referencing==0.37.0
+  regex==2025.11.3
+  requests==2.32.5
+  rich==14.2.0
+  rich-toolkit==0.15.1
+  rignore==0.7.6
+  rpds-py==0.29.0
+  rsa==4.9.1
+  safetensors==0.6.2
+  scikit-learn==1.7.2
+  scipy==1.16.3
+  sentencepiece==0.2.1
+  sentry-sdk==2.44.0
+  setproctitle==1.3.7
+  setuptools==80.9.0
+  shellingham==1.5.4
+  six==1.17.0
+  sniffio==1.3.1
+  soundfile==0.13.1
+  soxr==1.0.0
+  starlette==0.49.3
+  sympy==1.14.0
+  tabulate==0.9.0
+  tenacity==9.1.2
+  threadpoolctl==3.6.0
+  tiktoken==0.12.0
+  together==1.5.31
+  tokenizers==0.22.1
+  torch==2.8.0
+  torchaudio==2.8.0
+  torchvision==0.23.0
+  tqdm==4.67.1
+  transformers==4.57.1
+  triton==3.4.0
+  typer==0.19.2
+  types-requests==2.32.4.20250913
+  typing_extensions==4.15.0
+  typing-inspection==0.4.2
+  tzdata==2025.2
+  urllib3==2.5.0
+  uvicorn==0.38.0
+  uvloop==0.22.1
+  vllm==0.11.0
+  watchfiles==1.1.1
+  websockets==15.0.1
+  wheel==0.45.1
+  xformers==0.0.32.post1
+  xgrammar==0.1.25
+  xxhash==3.6.0
+  yarl==1.22.0
+
+ENV: swe
+PATH: /root/autodl-tmp/jkh/.conda/envs/swe
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/swe/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.9.9 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  expat==2.7.1 (build=h6a678d5_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.44 (build=h153f514_2, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libnsl==2.0.0 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libxcb==1.17.0 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libzlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.5 (build=h7934f7d_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.18 (build=hd6dcaed_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.2 (build=pyhc872135_1, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  pthread-stubs==0.3 (build=h0ce48e5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  python==3.11.14 (build=h6fa692b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.3 (build=hc2a1206_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==80.9.0 (build=py311h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.50.2 (build=hb25bd0a_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.15 (build=h54e0aa7_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py311h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libx11==1.8.12 (build=h9b100fa_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxau==1.0.12 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxdmcp==1.1.5 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-xorgproto==2024.1 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  aiohappyeyeballs==2.6.1
+  aiohttp==3.13.2
+  aiosignal==1.4.0
+  annotated-types==0.7.0
+  anyio==4.11.0
+  attrs==25.4.0
+  certifi==2025.10.5
+  charset-normalizer==3.4.4
+  click==8.3.0
+  distro==1.9.0
+  fastuuid==0.14.0
+  filelock==3.20.0
+  frozenlist==1.8.0
+  fsspec==2025.10.0
+  h11==0.16.0
+  hf-xet==1.2.0
+  httpcore==1.0.9
+  httpx==0.28.1
+  huggingface-hub==1.0.1
+  idna==3.11
+  importlib_metadata==8.7.0
+  Jinja2==3.1.6
+  jiter==0.11.1
+  jsonschema==4.25.1
+  jsonschema-specifications==2025.9.1
+  linkify-it-py==2.0.3
+  litellm==1.79.0
+  markdown-it-py==4.0.0
+  MarkupSafe==3.0.3
+  mdit-py-plugins==0.5.0
+  mdurl==0.1.2
+  mini-swe-agent==1.14.4
+  multidict==6.7.0
+  openai==2.6.1
+  packaging==25.0
+  pip==25.2
+  platformdirs==4.5.0
+  prompt_toolkit==3.0.52
+  propcache==0.4.1
+  pydantic==2.12.3
+  pydantic_core==2.41.4
+  Pygments==2.19.2
+  python-dotenv==1.2.1
+  PyYAML==6.0.3
+  referencing==0.37.0
+  regex==2025.10.23
+  requests==2.32.5
+  rich==14.2.0
+  rpds-py==0.28.0
+  setuptools==80.9.0
+  shellingham==1.5.4
+  sniffio==1.3.1
+  tenacity==9.1.2
+  textual==6.5.0
+  tiktoken==0.12.0
+  tokenizers==0.22.1
+  tqdm==4.67.1
+  typer==0.20.0
+  typer-slim==0.20.0
+  typing_extensions==4.15.0
+  typing-inspection==0.4.2
+  uc-micro-py==1.0.3
+  urllib3==2.5.0
+  wcwidth==0.2.14
+  wheel==0.45.1
+  yarl==1.22.0
+  zipp==3.23.0
+
+ENV: valuebench
+PATH: /root/autodl-tmp/jkh/.conda/envs/valuebench
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/valuebench/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.9.9 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  expat==2.7.1 (build=h6a678d5_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.44 (build=h153f514_2, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libnsl==2.0.0 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libxcb==1.17.0 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libzlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.5 (build=h7934f7d_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.18 (build=hd6dcaed_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.2 (build=pyhc872135_1, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  pthread-stubs==0.3 (build=h0ce48e5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  python==3.10.19 (build=h6fa692b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.3 (build=hc2a1206_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==80.9.0 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.50.2 (build=hb25bd0a_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.15 (build=h54e0aa7_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libx11==1.8.12 (build=h9b100fa_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxau==1.0.12 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxdmcp==1.1.5 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-xorgproto==2024.1 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  annotated-types==0.7.0
+  anyio==4.11.0
+  backoff==2.2.1
+  certifi==2025.11.12
+  charset-normalizer==3.4.4
+  distro==1.9.0
+  exceptiongroup==1.3.0
+  greenlet==3.2.4
+  grpcio==1.76.0
+  h11==0.16.0
+  h2==4.3.0
+  hpack==4.1.0
+  httpcore==1.0.9
+  httpx==0.28.1
+  hyperframe==6.1.0
+  idna==3.11
+  jiter==0.12.0
+  mem0ai==1.0.1
+  numpy==2.2.6
+  openai==2.8.1
+  pip==25.2
+  portalocker==3.2.0
+  posthog==7.0.1
+  protobuf==5.29.5
+  pydantic==2.12.4
+  pydantic_core==2.41.5
+  python-dateutil==2.9.0.post0
+  pytz==2025.2
+  qdrant-client==1.16.0
+  requests==2.32.5
+  setuptools==80.9.0
+  six==1.17.0
+  sniffio==1.3.1
+  SQLAlchemy==2.0.44
+  tqdm==4.67.1
+  typing_extensions==4.15.0
+  typing-inspection==0.4.2
+  urllib3==2.5.0
+  wheel==0.45.1
+
+ENV: verl-agent
+PATH: /root/autodl-tmp/jkh/.conda/envs/verl-agent
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/verl-agent/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.12.2 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  expat==2.7.3 (build=h7354ed3_3, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.44 (build=h153f514_2, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libexpat==2.7.3 (build=h7354ed3_3, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc==15.2.0 (build=h69a1729_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==15.2.0 (build=h166f726_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==15.2.0 (build=h4751f2c_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx==15.2.0 (build=h39759b7_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==15.2.0 (build=hc03a8fd_7, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libxcb==1.17.0 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libzlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.5 (build=h7934f7d_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.18 (build=hd6dcaed_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.3 (build=pyhc872135_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  pthread-stubs==0.3 (build=h0ce48e5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  python==3.12.0 (build=h996f2a0_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.3 (build=hc2a1206_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==80.9.0 (build=py312h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.51.0 (build=h2a70700_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.15 (build=h54e0aa7_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py312h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libx11==1.8.12 (build=h9b100fa_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxau==1.0.12 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxdmcp==1.1.5 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-xorgproto==2024.1 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  accelerate==1.10.1
+  aiofiles==24.1.0
+  aiohappyeyeballs==2.6.1
+  aiohttp==3.13.1
+  aiosignal==1.4.0
+  annotated-doc==0.0.4
+  annotated-types==0.7.0
+  anthropic==0.71.0
+  antlr4-python3-runtime==4.9.3
+  anyio==4.11.0
+  apache-tvm-ffi==0.1.4
+  astor==0.8.1
+  audioread==3.0.1
+  av==16.0.1
+  backoff==2.2.1
+  black==25.11.0
+  blake3==1.0.8
+  Brotli==1.1.0
+  cachetools==6.2.2
+  cbor2==5.7.1
+  click==8.2.1
+  cloudpickle==3.1.2
+  cohere==5.20.0
+  compressed-tensors==0.12.2
+  cuda-bindings==13.0.3
+  cuda-pathfinder==1.3.2
+  cuda-python==13.0.3
+  cupy-cuda12x==13.6.0
+  datasets==4.0.0
+  depyf==0.20.0
+  dill==0.3.8
+  diskcache==5.6.3
+  dnspython==2.8.0
+  docstring_parser==0.17.0
+  einops==0.8.1
+  email-validator==2.3.0
+  emoji==2.15.0
+  eval_type_backport==0.2.2
+  faiss-cpu==1.8.0.post1
+  fastapi==0.123.8
+  fastapi-cli==0.0.16
+  fastapi-cloud-cli==0.6.0
+  fastar==0.8.0
+  fastavro==1.12.1
+  fastrlock==0.8.3
+  ffmpy==0.6.3
+  filelock==3.19.1
+  fire==0.7.1
+  flash_attn==2.8.3
+  flashinfer-python==0.5.3
+  frozenlist==1.8.0
+  fsspec==2025.9.0
+  gdown==5.2.1
+  gguf==0.17.1
+  google-auth==2.43.0
+  google-genai==1.52.0
+  gradio==5.45.0
+  gradio_client==1.13.0
+  greenlet==3.2.4
+  groovy==0.1.2
+  h2==4.3.0
+  hf_transfer==0.1.9
+  hf-xet==1.1.10
+  hpack==4.1.0
+  httptools==0.7.1
+  httpx==0.28.1
+  httpx-sse==0.4.0
+  huggingface-hub==0.35.3
+  hyperframe==6.1.0
+  interegular==0.3.3
+  jieba==0.42.1
+  Jinja2==3.1.6
+  jiter==0.12.0
+  jmespath==1.0.1
+  joblib==1.5.2
+  jsonpickle==4.1.1
+  lark==1.2.2
+  lazy_loader==0.4
+  librosa==0.11.0
+  livecodebench==0.1.0
+  llamafactory==0.9.4.dev0
+  llguidance==1.3.0
+  llvmlite==0.44.0
+  lm-format-enforcer==0.11.3
+  loguru==0.7.3
+  markdown-it-py==4.0.0
+  MarkupSafe==2.1.5
+  mdurl==0.1.2
+  mem0ai==1.0.1
+  mistral_common==1.8.6
+  mistralai==0.4.2
+  model-hosting-container-standards==0.1.9
+  modelscope==1.31.0
+  mpmath==1.3.0
+  msgpack==1.1.2
+  msgspec==0.20.0
+  multidict==6.7.0
+  multiprocess==0.70.16
+  mypy_extensions==1.1.0
+  networkx==3.5
+  ninja==1.13.0
+  nltk==3.9.2
+  numba==0.61.2
+  numpy==1.26.4
+  nvidia-cublas-cu12==12.4.5.8
+  nvidia-cuda-cupti-cu12==12.4.127
+  nvidia-cuda-nvrtc-cu12==12.4.127
+  nvidia-cuda-runtime-cu12==12.4.127
+  nvidia-cudnn-cu12==9.1.0.70
+  nvidia-cudnn-frontend==1.16.0
+  nvidia-cufft-cu12==11.2.1.3
+  nvidia-cufile-cu12==1.13.1.3
+  nvidia-curand-cu12==10.3.5.147
+  nvidia-cusolver-cu12==11.6.1.9
+  nvidia-cusparse-cu12==12.3.1.170
+  nvidia-cusparselt-cu12==0.6.2
+  nvidia-cutlass-dsl==4.3.2
+  nvidia-ml-py==13.580.82
+  nvidia-nccl-cu12==2.21.5
+  nvidia-nvjitlink-cu12==12.4.127
+  nvidia-nvshmem-cu12==3.3.20
+  nvidia-nvtx-cu12==12.4.127
+  omegaconf==2.3.0
+  openai==2.8.1
+  openai-harmony==0.0.8
+  opencv-python-headless==4.12.0.88
+  orjson==3.10.18
+  outlines_core==0.2.11
+  packaging==25.0
+  pandas==2.3.3
+  partial-json-parser==0.2.1.1.post7
+  pathspec==0.12.1
+  Pebble==5.1.3
+  peft==0.17.1
+  pillow==11.3.0
+  pip==25.3
+  pooch==1.8.2
+  portalocker==3.2.0
+  posthog==7.0.1
+  prometheus-fastapi-instrumentator==7.1.0
+  propcache==0.4.1
+  protobuf==5.29.5
+  py-cpuinfo==9.0.0
+  pyarrow==21.0.0
+  pyasn1==0.6.1
+  pyasn1_modules==0.4.2
+  pybase64==1.4.2
+  pycountry==24.6.1
+  pydantic==2.12.5
+  pydantic_core==2.41.5
+  pydantic-extra-types==2.10.6
+  pydub==0.25.1
+  PyOpenGL==3.1.10
+  python-dotenv==1.2.1
+  python-multipart==0.0.20
+  pytokens==0.3.0
+  pytz==2025.2
+  qdrant-client==1.16.0
+  ray==2.52.1
+  regex==2024.11.6
+  requests==2.32.5
+  rich==14.2.0
+  rich-toolkit==0.17.0
+  rignore==0.7.6
+  rouge-chinese==1.0.3
+  rsa==4.9.1
+  ruff==0.14.1
+  safehttpx==0.1.6
+  safetensors==0.5.3
+  scikit-learn==1.7.2
+  scipy==1.16.2
+  semantic-version==2.10.0
+  sentencepiece==0.2.1
+  sentry-sdk==2.47.0
+  setproctitle==1.3.7
+  setuptools==80.9.0
+  shellingham==1.5.4
+  shtab==1.7.2
+  soundfile==0.13.1
+  soxr==1.0.0
+  SQLAlchemy==2.0.44
+  sse-starlette==3.0.2
+  starlette==0.50.0
+  svgwrite==1.4.3
+  sympy==1.13.1
+  tabulate==0.9.0
+  tenacity==9.1.2
+  termcolor==3.1.0
+  textblob==0.19.0
+  threadpoolctl==3.6.0
+  tiktoken==0.12.0
+  together==1.5.31
+  tokenizers==0.22.1
+  tomlkit==0.13.3
+  torch==2.6.0+cu124
+  torchaudio==2.9.0
+  tqdm==4.67.1
+  transformers==4.57.3
+  triton==3.2.0
+  trl==0.9.6
+  typer==0.19.2
+  types-requests==2.32.4.20250913
+  typing_extensions==4.15.0
+  typing-inspection==0.4.2
+  tyro==0.8.14
+  tzdata==2025.2
+  uvicorn==0.37.0
+  uvloop==0.22.1
+  vllm==0.12.0
+  watchfiles==1.1.1
+  websockets==15.0.1
+  wheel==0.45.1
+  xgrammar==0.1.27
+  xxhash==3.6.0
+  yarl==1.22.0
+
+ENV: vllm
+PATH: /root/autodl-tmp/jkh/.conda/envs/vllm
+PYTHON_BIN: /root/autodl-tmp/jkh/.conda/envs/vllm/bin/python
+CONDA_PACKAGES:
+  _libgcc_mutex==0.1 (build=main, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  _openmp_mutex==5.1 (build=1_gnu, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  bzip2==1.0.8 (build=h5eee18b_6, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ca-certificates==2025.9.9 (build=h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  expat==2.7.1 (build=h6a678d5_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ld_impl_linux-64==2.44 (build=h153f514_2, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libffi==3.4.4 (build=h6a678d5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgcc-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libgomp==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libstdcxx-ng==11.2.0 (build=h1234567_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libuuid==1.41.5 (build=h5eee18b_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libxcb==1.17.0 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  libzlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  ncurses==6.5 (build=h7934f7d_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  openssl==3.0.18 (build=hd6dcaed_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  pip==25.2 (build=pyhc872135_1, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  pthread-stubs==0.3 (build=h0ce48e5_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  python==3.10.18 (build=h1a3bd86_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  readline==8.3 (build=hc2a1206_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  setuptools==80.9.0 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  sqlite==3.50.2 (build=hb25bd0a_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tk==8.6.15 (build=h54e0aa7_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  tzdata==2025b (build=h04d1e81_0, channel=https://repo.anaconda.com/pkgs/main/noarch)
+  wheel==0.45.1 (build=py310h06a4308_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libx11==1.8.12 (build=h9b100fa_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxau==1.0.12 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-libxdmcp==1.1.5 (build=h9b100fa_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xorg-xorgproto==2024.1 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  xz==5.6.4 (build=h5eee18b_1, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+  zlib==1.3.1 (build=hb25bd0a_0, channel=https://repo.anaconda.com/pkgs/main/linux-64)
+PIP_PACKAGES:
+  aiohappyeyeballs==2.6.1
+  aiohttp==3.13.1
+  aiosignal==1.4.0
+  annotated-types==0.7.0
+  anyio==4.11.0
+  astor==0.8.1
+  async-timeout==5.0.1
+  attrs==25.4.0
+  blake3==1.0.8
+  cachetools==6.2.1
+  cbor2==5.7.0
+  certifi==2025.10.5
+  cffi==2.0.0
+  charset-normalizer==3.4.4
+  click==8.2.1
+  cloudpickle==3.1.1
+  compressed-tensors==0.11.0
+  cupy-cuda12x==13.6.0
+  depyf==0.19.0
+  dill==0.4.0
+  diskcache==5.6.3
+  distro==1.9.0
+  dnspython==2.8.0
+  einops==0.8.1
+  email-validator==2.3.0
+  exceptiongroup==1.3.0
+  fastapi==0.119.0
+  fastapi-cli==0.0.13
+  fastapi-cloud-cli==0.3.1
+  fastrlock==0.8.3
+  filelock==3.20.0
+  frozendict==2.4.6
+  frozenlist==1.8.0
+  fsspec==2025.9.0
+  gguf==0.17.1
+  h11==0.16.0
+  hf-xet==1.1.10
+  httpcore==1.0.9
+  httptools==0.7.1
+  httpx==0.28.1
+  huggingface-hub==0.35.3
+  idna==3.11
+  interegular==0.3.3
+  Jinja2==3.1.6
+  jiter==0.11.1
+  jsonschema==4.25.1
+  jsonschema-specifications==2025.9.1
+  lark==1.2.2
+  llguidance==0.7.30
+  llvmlite==0.44.0
+  lm-format-enforcer==0.11.3
+  markdown-it-py==4.0.0
+  MarkupSafe==3.0.3
+  mdurl==0.1.2
+  mistral_common==1.8.5
+  mpmath==1.3.0
+  msgpack==1.1.2
+  msgspec==0.19.0
+  multidict==6.7.0
+  networkx==3.4.2
+  ninja==1.13.0
+  numba==0.61.2
+  numpy==2.2.6
+  nvidia-cublas-cu12==12.8.4.1
+  nvidia-cuda-cupti-cu12==12.8.90
+  nvidia-cuda-nvrtc-cu12==12.8.93
+  nvidia-cuda-runtime-cu12==12.8.90
+  nvidia-cudnn-cu12==9.10.2.21
+  nvidia-cufft-cu12==11.3.3.83
+  nvidia-cufile-cu12==1.13.1.3
+  nvidia-curand-cu12==10.3.9.90
+  nvidia-cusolver-cu12==11.7.3.90
+  nvidia-cusparse-cu12==12.5.8.93
+  nvidia-cusparselt-cu12==0.7.1
+  nvidia-nccl-cu12==2.27.3
+  nvidia-nvjitlink-cu12==12.8.93
+  nvidia-nvtx-cu12==12.8.90
+  openai==2.5.0
+  openai-harmony==0.0.4
+  opencv-python-headless==4.12.0.88
+  outlines_core==0.2.11
+  packaging==25.0
+  partial-json-parser==0.2.1.1.post6
+  pillow==12.0.0
+  pip==25.2
+  prometheus_client==0.23.1
+  prometheus-fastapi-instrumentator==7.1.0
+  propcache==0.4.1
+  protobuf==6.33.0
+  psutil==7.1.0
+  py-cpuinfo==9.0.0
+  pybase64==1.4.2
+  pycountry==24.6.1
+  pycparser==2.23
+  pydantic==2.12.3
+  pydantic_core==2.41.4
+  pydantic-extra-types==2.10.6
+  Pygments==2.19.2
+  python-dotenv==1.1.1
+  python-json-logger==4.0.0
+  python-multipart==0.0.20
+  PyYAML==6.0.3
+  pyzmq==27.1.0
+  ray==2.50.1
+  referencing==0.37.0
+  regex==2025.9.18
+  requests==2.32.5
+  rich==14.2.0
+  rich-toolkit==0.15.1
+  rignore==0.7.1
+  rpds-py==0.27.1
+  safetensors==0.6.2
+  scipy==1.15.3
+  sentencepiece==0.2.1
+  sentry-sdk==2.42.0
+  setproctitle==1.3.7
+  setuptools==80.9.0
+  shellingham==1.5.4
+  sniffio==1.3.1
+  soundfile==0.13.1
+  soxr==1.0.0
+  starlette==0.48.0
+  sympy==1.14.0
+  tiktoken==0.12.0
+  tokenizers==0.22.1
+  torch==2.8.0
+  torchaudio==2.8.0
+  torchvision==0.23.0
+  tqdm==4.67.1
+  transformers==4.57.1
+  triton==3.4.0
+  typer==0.19.2
+  typing_extensions==4.15.0
+  typing-inspection==0.4.2
+  urllib3==2.5.0
+  uvicorn==0.38.0
+  uvloop==0.22.1
+  vllm==0.11.0
+  watchfiles==1.1.1
+  websockets==15.0.1
+  wheel==0.45.1
+  xformers==0.0.32.post1
+  xgrammar==0.1.25
+  yarl==1.22.0
+
+Virtualenv environments
+=======================
+<none found outside excluded cache directories>
+

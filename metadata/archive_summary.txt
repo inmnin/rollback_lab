@@ -1,0 +1,5 @@
+Generated: 2026-04-17T10:53:59.543848+00:00
+Part count: 235
+Total bytes: 23333229929
+Total GiB: 21.73
+Part prefix: backup_parts/jkh_backup_20260417.tar.zst.part-

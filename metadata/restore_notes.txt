@@ -1,0 +1,14 @@
+Backup source: /root/autodl-tmp/jkh
+Backup date: 2026-04-17 UTC
+
+Archive format:
+- split zstd-compressed tar archive
+- part prefix: backup_parts/jkh_backup_20260417.tar.zst.part-
+
+Restore example:
+1. cat backup_parts/jkh_backup_20260417.tar.zst.part-* > /tmp/jkh_backup_20260417.tar.zst
+2. tar --zstd -xf /tmp/jkh_backup_20260417.tar.zst -C /
+
+Important:
+- metadata/excluded_items.txt lists directories and >1 GiB files that were intentionally excluded
+- metadata/virtualenv_inventory.txt records conda and detected virtualenv package versions

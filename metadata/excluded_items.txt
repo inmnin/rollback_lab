@@ -1,0 +1,21 @@
+Generated: 2026-04-17T10:50:46.625569+00:00
+Backup root: /root/autodl-tmp/jkh
+
+Explicitly excluded directories:
+- /root/autodl-tmp/jkh/.cache/huggingface
+- /root/autodl-tmp/jkh/.cache/pip
+- /root/autodl-tmp/jkh/.cache/uv
+- /root/autodl-tmp/jkh/.conda
+- /root/autodl-tmp/jkh/.local/lib
+
+Excluded files larger than 1 GiB:
+- 13.41 GiB	/root/autodl-tmp/jkh/.cache/huggingface/datasets/downloads/extracted/0ce774cea025cba94eadade5861e6aee891d530b01195806bfb85030efb28681/data00/jiajie_jin/flashrag_indexes/wiki_dpr_100w/wiki_dump.jsonl
+- 3.67 GiB	/root/autodl-tmp/jkh/models/Qwen2.5-7B-Instruct/model-00001-of-00004.safetensors
+- 3.60 GiB	/root/autodl-tmp/jkh/models/Qwen2.5-7B-Instruct/model-00002-of-00004.safetensors
+- 3.60 GiB	/root/autodl-tmp/jkh/models/Qwen2.5-7B-Instruct/model-00003-of-00004.safetensors
+- 3.31 GiB	/root/autodl-tmp/jkh/models/Qwen2.5-7B-Instruct/model-00004-of-00004.safetensors
+- 3.72 GiB	/root/autodl-tmp/jkh/models/Qwen3-8B/model-00001-of-00005.safetensors
+- 3.72 GiB	/root/autodl-tmp/jkh/models/Qwen3-8B/model-00002-of-00005.safetensors
+- 3.69 GiB	/root/autodl-tmp/jkh/models/Qwen3-8B/model-00003-of-00005.safetensors
+- 2.97 GiB	/root/autodl-tmp/jkh/models/Qwen3-8B/model-00004-of-00005.safetensors
+- 1.16 GiB	/root/autodl-tmp/jkh/models/Qwen3-8B/model-00005-of-00005.safetensors
